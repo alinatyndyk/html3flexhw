@@ -1,0 +1,36 @@
+.container {
+    height: auto;
+    width: 500px;
+    border: 1px solid black;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.widgets {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    background-color: #0978a2;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.big, .bigger, .huge {
+    display: flex;
+    background-color: #07597c;
+    height: 200px;
+    width: 150px;
+}
+
+.middle {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.contact {
+    margin-top: 10px;
+    height: 300px;
+    background-color: #0978a2;
+}

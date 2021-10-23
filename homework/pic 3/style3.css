@@ -1,0 +1,44 @@
+.container {
+    height: 500px;
+    width: 500px;
+    border: 1px solid black;
+    padding: 10px;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    background-color: #0978a2;
+    height: 70px;
+    margin-bottom: 1px;
+    padding-top: 8px;
+    box-sizing: border-box;
+}
+
+.nav {
+    height: 50px;
+    background-color: #07597c;
+}
+
+.middle {
+    display: flex;
+}
+
+.main {
+    width: 350px;
+    height: 300px;
+    background-color: #338c94;
+    margin-right: 1px;
+}
+
+.footer {
+    height: 60px;
+    background-color: #80c8e0;
+}
+
+.aside {
+    flex-grow: 1;
+    background-color: #5c6075;
+}
